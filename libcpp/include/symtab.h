@@ -19,7 +19,7 @@ along with this program; see the file COPYING3.  If not see
 #define LIBCPP_SYMTAB_H
 
 #include "obstack.h"
-
+#include "stdbool.h"
 #ifndef GTY
 #define GTY(x) /* nothing */
 #endif

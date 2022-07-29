@@ -19,7 +19,13 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef WIDE_INT_H
 #define WIDE_INT_H
-
+#include "signop.h"
+#include "hwint.h"
+#ifndef GTY
+#define GTY(x)  /* nothing - marker for gengtype */
+#endif
+#include "insn-modes.h"
+#include "system.h"
 /* wide-int.[cc|h] implements a class that efficiently performs
    mathematical operations on finite precision integers.  wide_ints
    are designed to be transient - they are not for long term storage

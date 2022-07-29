@@ -20,7 +20,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_SYMBOL_SUMMARY_H
 #define GCC_SYMBOL_SUMMARY_H
-
+#include "cgraph.h"
 /* We want to pass just pointer types as argument for function_summary
    template class.  */
 

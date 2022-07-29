@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef HAVE_MACHINE_MODES
 #define HAVE_MACHINE_MODES
-
+#include "hwint.h"
 /* Make an enum class that gives all the machine modes.  */
 #include "insn-modes.h"
 

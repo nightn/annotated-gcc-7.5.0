@@ -12,16 +12,16 @@ GCC is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
-
 You should have received a copy of the GNU General Public License
 along with GCC; see the file COPYING3.  If not see
 <http://www.gnu.org/licenses/>.  */
-
+#ifndef TREE_VRP_H
+#define TREE_VRP_H
+#include "tree.h"
 /* Type of value ranges.  See value_range_d In tree-vrp.c for a
    description of these types.  */
 enum value_range_type { VR_UNDEFINED, VR_RANGE,
 			VR_ANTI_RANGE, VR_VARYING, VR_LAST };
-
 /* Range of values that can be associated with an SSA_NAME after VRP
    has executed.  */
 struct GTY((for_user)) value_range
@@ -56,4 +56,5 @@ extern void extract_range_from_unary_expr (value_range *vr,
 					   tree type,
 					   value_range *vr0_,
 					   tree op0_type);
+#endif
 

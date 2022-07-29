@@ -8,7 +8,12 @@
 
 #ifndef GCC_HWINT_H
 #define GCC_HWINT_H
-
+#include "auto-host.h"
+#include "limits.h"
+#ifndef gcc_checking_assert  
+#define gcc_assert(EXPR) ((void)(0 && (EXPR)))
+#define gcc_checking_assert(EXPR) gcc_assert (EXPR)
+#endif
 /* This describes the machine the compiler is hosted on.  */
 #define HOST_BITS_PER_CHAR  CHAR_BIT
 #define HOST_BITS_PER_SHORT (CHAR_BIT * SIZEOF_SHORT)

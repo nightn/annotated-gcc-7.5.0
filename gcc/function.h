@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_FUNCTION_H
 #define GCC_FUNCTION_H
-
+#include "coretypes.h"
 
 /* Stack of pending (incomplete) sequences saved by `start_sequence'.
    Each element describes one pending sequence.

@@ -20,7 +20,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_IPA_REF_H
 #define GCC_IPA_REF_H
-
+#include "coretypes.h"
 struct cgraph_node;
 class varpool_node;
 class symtab_node;

@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_TREE_CORE_H
 #define GCC_TREE_CORE_H
-
+#include "coretypes.h"
 #include "symtab.h"
 
 /* This file contains all the data structures that define the 'tree' type.

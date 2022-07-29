@@ -20,7 +20,7 @@
 
 #ifndef GCC_TIMEVAR_H
 #define GCC_TIMEVAR_H
-
+#include "coretypes.h"
 /* Timing variables are used to measure elapsed time in various
    portions of the compiler.  Each measures elapsed user, system, and
    wall-clock time, as appropriate to and supported by the host

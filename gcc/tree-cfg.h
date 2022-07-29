@@ -20,7 +20,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef _TREE_CFG_H
 #define _TREE_CFG_H
-
+#include "tree.h"
 /* Location to track pending stmt for edge insertion.  */
 #define PENDING_STMT(e)	((e)->insns.g)
 

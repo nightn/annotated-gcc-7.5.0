@@ -33,10 +33,10 @@ see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
    declarations.  This is a kludge; the right thing is to avoid
    including the "tm.h" header set in the context of tconfig.h, but
    we're not there yet.  */
-
 #ifndef GCC_CORETYPES_H
 #define GCC_CORETYPES_H
-
+#include "stdint.h"
+#include <utility>
 #ifndef GTY
 #define GTY(x)  /* nothing - marker for gengtype */
 #endif

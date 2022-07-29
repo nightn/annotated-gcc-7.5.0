@@ -20,10 +20,10 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_CGRAPH_H
 #define GCC_CGRAPH_H
-
+#include "tree.h"
 #include "ipa-ref.h"
 #include "plugin-api.h"
-
+#include "options.h"
 class ipa_opt_pass_d;
 typedef ipa_opt_pass_d *ipa_opt_pass;
 

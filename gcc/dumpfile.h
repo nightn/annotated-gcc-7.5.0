@@ -20,7 +20,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_DUMPFILE_H
 #define GCC_DUMPFILE_H 1
-
+#include "coretypes.h"
 
 /* Different tree dump places.  When you add new tree dump places,
    extend the DUMP_FILES array in dumpfile.c.  */
