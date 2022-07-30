@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_STRINGPOOL_H
 #define GCC_STRINGPOOL_H
-
+#include "tree.h"
 /* Return the (unique) IDENTIFIER_NODE node for a given name.
    The name is supplied as a char *.  */
 extern tree get_identifier (const char *);

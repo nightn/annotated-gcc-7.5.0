@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_RTL_H
 #define GCC_RTL_H
-
+#include "defaults.h"
 /* This file is occasionally included by generator files which expect
    machmode.h and other files to exist and would not normally have been
    included by coretypes.h.  */

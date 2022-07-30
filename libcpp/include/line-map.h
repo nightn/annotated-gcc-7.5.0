@@ -14,18 +14,18 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; see the file COPYING3.  If not see
 <http://www.gnu.org/licenses/>.
-
  In other words, you are welcome to use, share and improve this program.
  You are forbidden to forbid anyone else to use, share and improve
  what you give them.   Help stamp out software-hoarding!  */
-
 #ifndef LIBCPP_LINE_MAP_H
 #define LIBCPP_LINE_MAP_H
-
+#include "stdlib.h"
+#include <cstddef>
+#include "limits.h"
+#include "libiberty.h"
 #ifndef GTY
 #define GTY(x) /* nothing */
 #endif
-
 /* Reason for creating a new line map with linemap_add.  LC_ENTER is
    when including a new file, e.g. a #include directive in C.
    LC_LEAVE is when reaching a file's end.  LC_RENAME is when a file

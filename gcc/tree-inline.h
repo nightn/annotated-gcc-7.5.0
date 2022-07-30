@@ -20,7 +20,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_TREE_INLINE_H
 #define GCC_TREE_INLINE_H
-
+#include "tree.h"
 
 struct cgraph_edge;
 

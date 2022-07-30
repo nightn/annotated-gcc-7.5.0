@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_GIMPLE_ITERATOR_H
 #define GCC_GIMPLE_ITERATOR_H
-
+#include "gimple.h"
 /* Iterator object for GIMPLE statement sequences.  */
 
 struct gimple_stmt_iterator

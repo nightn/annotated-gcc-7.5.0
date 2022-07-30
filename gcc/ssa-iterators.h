@@ -19,7 +19,8 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_SSA_ITERATORS_H
 #define GCC_SSA_ITERATORS_H
-
+#include "options.h"
+#include "gimple-ssa.h"
 /* Immediate use lists are used to directly access all uses for an SSA
    name and get pointers to the statement for each use.
 

@@ -163,7 +163,7 @@ see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
 
 #ifndef GCC_GCOV_IO_H
 #define GCC_GCOV_IO_H
-
+#include "coretypes.h"
 #ifndef IN_LIBGCOV
 /* About the host */
 

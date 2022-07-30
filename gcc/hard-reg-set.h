@@ -19,7 +19,8 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_HARD_REG_SET_H
 #define GCC_HARD_REG_SET_H
-
+#include "config/aarch64/aarch64.h"
+#include "coretypes.h"
 /* Define the type of a set of hard registers.  */
 
 /* HARD_REG_ELT_TYPE is a typedef of the unsigned integral type which

@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_TREE_INTO_SSA_H
 #define GCC_TREE_INTO_SSA_H
-
+#include "ssa.h"
 extern tree get_current_def (tree);
 extern void set_current_def (tree, tree);
 void delete_update_ssa (void);

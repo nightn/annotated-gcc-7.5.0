@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_PREDICT_H
 #define GCC_PREDICT_H
-
+#include "coretypes.h"
 /* Random guesstimation given names.
    PROB_VERY_UNLIKELY should be small enough so basic block predicted
    by it gets below HOT_BB_FREQUENCY_FRACTION.  */

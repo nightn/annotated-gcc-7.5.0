@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_TREE_PHINODES_H
 #define GCC_TREE_PHINODES_H
-
+#include "tree-ssa-operands.h"
 extern void phinodes_print_statistics (void);
 extern void reserve_phi_args_for_new_edge (basic_block);
 extern void add_phi_node_to_bb (gphi *phi, basic_block bb);

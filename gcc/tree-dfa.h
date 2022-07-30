@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_TREE_DFA_H
 #define GCC_TREE_DFA_H
-
+#include "tree.h"
 extern void renumber_gimple_stmt_uids (void);
 extern void renumber_gimple_stmt_uids_in_blocks (basic_block *, int);
 extern void dump_variable (FILE *, tree);

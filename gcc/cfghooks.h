@@ -22,7 +22,7 @@ along with GCC; see the file COPYING3.  If not see
 #define GCC_CFGHOOKS_H
 
 #include "predict.h"
-
+#include "options.h"
 /* Structure to gather statistic about profile consistency, per pass.
    An array of this structure, indexed by pass static number, is allocated
    in passes.c.  The structure is defined here so that different CFG modes

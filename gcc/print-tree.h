@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_PRINT_TREE_H
 #define GCC_PRINT_TREE_H
-
+#include "tree.h"
 extern void debug_tree (tree);
 extern void debug_raw (const tree_node &ref);
 extern void debug_raw (const tree_node *ptr);

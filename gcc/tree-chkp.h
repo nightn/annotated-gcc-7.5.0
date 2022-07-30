@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_TREE_CHKP_H
 #define GCC_TREE_CHKP_H
-
+#include "tree.h"
 #define DECL_BOUNDS(NODE) (chkp_get_bounds (DECL_WRTL_CHECK (NODE)))
 
 #define SET_DECL_BOUNDS(NODE, VAL) \

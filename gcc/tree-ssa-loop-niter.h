@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_TREE_SSA_LOOP_NITER_H
 #define GCC_TREE_SSA_LOOP_NITER_H
-
+#include "gimple.h"
 extern tree expand_simple_operations (tree, tree = NULL);
 extern tree simplify_using_initial_conditions (struct loop *, tree);
 extern bool loop_only_exit_p (const struct loop *, const_edge);

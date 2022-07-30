@@ -22,7 +22,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_LTO_STREAMER_H
 #define GCC_LTO_STREAMER_H
-
+#include "gimple.h"
 #include "plugin-api.h"
 #include "gcov-io.h"
 #include "diagnostic.h"

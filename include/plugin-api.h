@@ -25,7 +25,7 @@
 
 #ifndef PLUGIN_API_H
 #define PLUGIN_API_H
-
+#include "coretypes.h"
 #ifdef HAVE_STDINT_H
 #include <stdint.h>
 #elif defined(HAVE_INTTYPES_H)

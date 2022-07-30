@@ -16,10 +16,10 @@
    You should have received a copy of the GNU General Public License
    along with GCC; see the file COPYING3.  If not see
    <http://www.gnu.org/licenses/>.  */
-
 #ifndef GCC_DOMINANCE_H
 #define GCC_DOMINANCE_H
-
+#include "gimple.h"
+#include "options.h"
 enum cdi_direction
 {
   CDI_DOMINATORS = 1,

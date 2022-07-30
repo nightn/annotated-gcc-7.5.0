@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_GIMPLE_WALK_H
 #define GCC_GIMPLE_WALK_H
-
+#include "gimple-iterator.h"
 /* Convenience routines to walk all statements of a gimple function.
    Note that this is useful exclusively before the code is converted
    into SSA form.  Once the program is in SSA form, the standard

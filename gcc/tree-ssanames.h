@@ -16,12 +16,12 @@ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
 You should have received a copy of the GNU General Public License
 along with GCC; see the file COPYING3.  If not see
 <http://www.gnu.org/licenses/>.  */
-
 #ifndef GCC_TREE_SSANAMES_H
 #define GCC_TREE_SSANAMES_H
-
+#include "tree-vrp.h"
+#include "gimple.h"
+#include "stringpool.h"
 /* Aliasing information for SSA_NAMEs representing pointer variables.  */
-
 struct GTY(()) ptr_info_def
 {
   /* The points-to solution.  */

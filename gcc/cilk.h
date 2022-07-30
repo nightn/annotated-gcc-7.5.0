@@ -22,13 +22,13 @@
 
 #ifndef GCC_CILK_H
 #define GCC_CILK_H
-
+#include "gimple.h"
 /* Frame status bits known to compiler.  */
 #define CILK_FRAME_UNSYNCHED 0x02
 #define CILK_FRAME_DETACHED  0x04
 #define CILK_FRAME_EXCEPTING 0x10
 #define CILK_FRAME_VERSION   (1 << 24)
-
+#include "options.h"
 enum cilk_tree_index  {
 /* All the built-in functions for Cilk keywords.  */
   CILK_TI_F_WORKER = 0,               /* __cilkrts_get_worker ().  */

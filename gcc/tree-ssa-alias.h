@@ -20,7 +20,7 @@
 
 #ifndef TREE_SSA_ALIAS_H
 #define TREE_SSA_ALIAS_H
-
+#include "tree.h"
 /* The points-to solution.
 
    The points-to solution is a union of pt_vars and the abstract

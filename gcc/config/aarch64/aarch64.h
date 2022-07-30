@@ -18,10 +18,10 @@
    along with GCC; see the file COPYING3.  If not see
    <http://www.gnu.org/licenses/>.  */
 
-
 #ifndef GCC_AARCH64_H
 #define GCC_AARCH64_H
-
+#include "coretypes.h"
+#include "insn-constants.h"
 /* Target CPU builtins.  */
 #define TARGET_CPU_CPP_BUILTINS()	\
   aarch64_cpu_cpp_builtins (pfile)

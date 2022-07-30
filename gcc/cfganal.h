@@ -20,7 +20,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_CFGANAL_H
 #define GCC_CFGANAL_H
-
+#include "coretypes.h"
 /* This structure maintains an edge list vector.  */
 /* FIXME: Make this a vec<edge>.  */
 struct edge_list

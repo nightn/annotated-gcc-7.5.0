@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_FOLD_CONST_H
 #define GCC_FOLD_CONST_H
-
+#include "tree.h"
 /* Non-zero if we are folding constants inside an initializer; zero
    otherwise.  */
 extern int folding_initializer;

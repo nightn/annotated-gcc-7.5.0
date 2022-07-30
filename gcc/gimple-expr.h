@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_GIMPLE_EXPR_H
 #define GCC_GIMPLE_EXPR_H
-
+#include "tree.h"
 extern bool useless_type_conversion_p (tree, tree);
 
 

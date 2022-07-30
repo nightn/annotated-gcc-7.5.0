@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_CFGLOOPMANIP_H
 #define GCC_CFGLOOPMANIP_H
-
+#include "cfg.h"
 enum
 {
   CP_SIMPLE_PREHEADERS = 1,

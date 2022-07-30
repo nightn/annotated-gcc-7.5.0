@@ -31,7 +31,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_PARAMS_H
 #define GCC_PARAMS_H
-
+#include "coretypes.h"
 /* No parameter shall have this value.  */
 
 #define INVALID_PARAM_VAL (-1)

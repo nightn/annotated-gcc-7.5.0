@@ -19,7 +19,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_GIMPLIFY_ME_H
 #define GCC_GIMPLIFY_ME_H
-
+#include "gimple-iterator.h"
 /* Validation of GIMPLE expressions.  Note that these predicates only check
  *    the basic form of the expression, they don't recurse to make sure that
  *       underlying nodes are also of the right form.  */

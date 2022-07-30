@@ -20,7 +20,7 @@ along with GCC; see the file COPYING3.  If not see
 
 #ifndef GCC_PRETTY_PRINT_H
 #define GCC_PRETTY_PRINT_H
-
+#include "coretypes.h"
 #include "obstack.h"
 #include "wide-int-print.h"
 
